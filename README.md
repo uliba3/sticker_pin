@@ -34,6 +34,7 @@ A Chrome extension that allows you to upload and display GIFs or images directly
 - `imageService.js` - Image handling and processing
 - `storageService.js` - Local storage management
 - `styles.css` - Extension styling
+- `PRIVACY.md` - Privacy policy
 
 ## Permissions
 
@@ -53,6 +54,10 @@ To modify or extend the functionality:
 ## License
 
 This project is open source and available under the MIT License.
+
+## Privacy
+
+Please review our [Privacy Policy](PRIVACY.md) to understand how we handle your data.
 
 ## Support
 
