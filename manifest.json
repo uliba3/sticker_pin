@@ -1,0 +1,30 @@
+{
+  "manifest_version": 3,
+  "name": "Sticker Pin",
+  "version": "1.0",
+  "description": "Upload and display GIFs or images in your browser window",
+  "permissions": [
+    "storage",
+    "activeTab",
+    "tabs",
+    "scripting"
+  ],
+  "host_permissions": [
+    "https://*/*",
+    "http://*/*"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": [
+        "storageService.js",
+        "imageService.js",
+        "content.js"
+      ],
+      "css": ["styles.css"]
+    }
+  ]
+} 
